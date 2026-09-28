@@ -26,6 +26,14 @@ pi 启动时只把 skill 的 `name` / `description` / 路径注入 system prompt
 
 ## 安装
 
+### 方式一：作为 pi 包安装（推荐）
+
+```bash
+pi install git:github.com/wangxiang0605qvq/pi-skill-domain-expert
+```
+
+### 方式二：手动复制
+
 ```bash
 mkdir -p ~/.pi/agent/skills/domain-expert/references
 cp domain-expert/SKILL.md ~/.pi/agent/skills/domain-expert/SKILL.md
@@ -33,3 +41,7 @@ cp domain-expert/references/full.md ~/.pi/agent/skills/domain-expert/references/
 ```
 
 然后 `/reload`。
+
+## 版权
+
+著作权归作者所有，保留一切权利。详见 [LICENSE](LICENSE)。

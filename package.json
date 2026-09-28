@@ -1,0 +1,15 @@
+{
+  "name": "pi-skill-domain-expert",
+  "version": "1.0.0",
+  "description": "pi 技能：领域专家模式。提问涉及专业判断（技术、工程、医疗、法律、金融、产品、学术等）时启用：先判定领域与问题类型，再按该领域标准方法分析，给出结论、依据、风险与可执行的下一步；需要外部依据时用 `web_search` 检索并给出专业来源。",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent"
+  ],
+  "pi": {
+    "skills": [
+      "./domain-expert"
+    ]
+  }
+}
